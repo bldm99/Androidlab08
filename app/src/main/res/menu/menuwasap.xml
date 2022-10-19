@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainActivity">
+
+    <item android:id="@+id/configuracion"
+        android:title="Ajustes"
+        android:icon="@android:drawable/ic_menu_preferences"
+        app:showAsAction="never" />
+    <item android:id="@+id/acerca"
+        android:title="Acerca de ..."
+        android:icon="@android:drawable/ic_menu_preferences"
+        app:showAsAction="never" />
+
+
+    <item android:id="@+id/otros"
+        android:title="Otros"
+        android:icon="@drawable/ic_baseline_message_24"
+
+        app:showAsAction="ifRoom"
+        android:orderInCategory="2"/>
+
+    <item android:id="@+id/buscar"
+        android:title="Buscar"
+        android:icon="@android:drawable/ic_menu_search"
+        app:showAsAction="ifRoom"
+        android:orderInCategory="1"/>
+
+
+
+
+</menu>
